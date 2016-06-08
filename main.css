@@ -74,6 +74,10 @@ table{
     min-width:700px !important;
 }
 
+a {
+    color:#0854c7 !important;
+}
+
 .left h1 {
     font-size:19px !important;
 }
