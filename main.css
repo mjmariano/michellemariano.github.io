@@ -79,7 +79,7 @@ a {
 }
 
 a.sublink {
-    color:white;
+    color:white !important;
 }
 
 .left h1 {
@@ -88,6 +88,10 @@ a.sublink {
 
 .left #btn-stech {
     background-color:#BD1550 !important;
+}
+
+.left #external-links {
+    margin-top:40px !important;
 }
 
 .sample-type {
