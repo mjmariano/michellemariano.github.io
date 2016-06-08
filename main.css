@@ -73,6 +73,10 @@ table{
     font-size:19px !important;
 }
 
+.left #btn-stech {
+    background-color:#BD1550 !important;
+}
+
 .sample-type {
     display: inline-block;
     letter-spacing: .6px;
