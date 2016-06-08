@@ -69,6 +69,9 @@ table{
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
+.left h1 {
+    font-size:19px !important;
+}
 
 .sample-type {
     display: inline-block;
