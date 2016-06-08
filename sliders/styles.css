@@ -4,12 +4,14 @@
 body {background: #ccc;}
 
 .slider{
-	width: 640px; /*Same as width of the large image*/
+	width: 800px; /*Same as width of the large image*/
 	position: relative;
 	/*Instead of height we will use padding*/
 	padding-top: 320px; /*That helps bring the labels down*/
 	
 	margin: 100px auto;
+	
+	margin-top:50px;
 	
 	/*Lets add a shadow*/
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
@@ -29,7 +31,7 @@ body {background: #ccc;}
 
 .slider label {
 	/*Lets add some spacing for the thumbnails*/
-	margin: 70px 0 0 18px;
+	margin: 370px 0 0 44px;
 	border: 3px solid #999;
 	
 	float: left;
