@@ -95,6 +95,10 @@ a.sublink {
     margin-top:40px !important;
 }
 
+#home .line {
+    margin-top:25px !important;
+}
+
 .sample-type {
     display: inline-block;
     letter-spacing: .6px;
@@ -111,6 +115,8 @@ a.sublink {
 #portfolio-title {
     overflow: hidden;
     margin: 40px 0;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
