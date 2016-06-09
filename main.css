@@ -99,6 +99,10 @@ a.sublink {
     margin-top:25px !important;
 }
 
+.footer {
+    margin:20px;
+}
+
 .sample-type {
     display: inline-block;
     letter-spacing: .6px;
