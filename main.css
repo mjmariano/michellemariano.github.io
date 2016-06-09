@@ -69,6 +69,46 @@ table{
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
+
+body {
+    font-size: 14px;
+    font-weight: 300;
+    color: #1e1e1e;
+}
+
+#layout {
+    padding:0;
+}
+
+.pure-g {
+    font-family: Avenir, Open Sans, Helvetica, sans-serif;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    -ms-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    color: #1e1e1e;
+}
+
+.left {
+    margin: 80% 2em 0;
+    text-align: left;
+}
+
+.pure-u-md-1-4, .pure-u-md-6-24 {
+    width: 25%;*
+    width: 24.969%
+}
+
 .card {
     left:500px !important;
     min-width:700px !important;
