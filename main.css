@@ -67,6 +67,17 @@ table{
     font-weight: 300;
     color: #1e1e1e;
 }*/
+@media screen and (max-width:1024px) {
+.left {
+position:relative;left:50%;top:30px;
+-webkit-transform:translateX(-60%);
+transform:translateX(-60%);
+    }
+.card {
+    left:330px;
+    width:400px;
+    }
+}
 
 #layout {
     padding:0;
@@ -204,14 +215,6 @@ a.sublink {
     text-align:left !important;
     font-size: 12px;
     line-height:1.7em;
-}
-
-@media screen and (max-width:1024px) {
-.left {
-position:relative;left:50%;top:30px;
--webkit-transform:translateX(-50%);
-transform:translateX(-50%);
-    }
 }
 
 .left #headshot {
