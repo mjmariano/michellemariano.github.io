@@ -223,8 +223,8 @@ height:200px;
 width:200px;
 height:200px;
 }
-.l
-eft #headshot:hover #headshot-overlay {
+
+.left #headshot:hover #headshot-overlay {
 bottom:0;
 }
 
@@ -342,5 +342,6 @@ min-width:600px;
 .sample-date {
     font-size:32px;
     }
+.left {font-size:50px;
 }
 
