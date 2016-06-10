@@ -76,6 +76,8 @@ table{
 .left {
     top:80px;
     position:fixed;
+    left:200px;
+    width:210px;
 }
 .card {
     left:500px;
@@ -94,6 +96,8 @@ position:fixed;left:50%;top:30px;
 -webkit-transform:translateX(-70%);
 transform:translateX(-70%);
 top:80px;
+left:200px;
+width:210px;
     }
 .card {
     left:300px;
@@ -112,7 +116,29 @@ padding-bottom:50px;
     .left {
         position:relative;
         top:15px;
-        left: 185px;
+      /*  left: 185px; */
+        left:200px;
+        width:210px;
+    }
+    .card {
+        padding-top:40px !important;
+        left:20px;
+        width:300px;
+        width:90%;
+    }
+    .left #external-links {
+        margin-top:20px !important;
+    }
+    
+}
+
+@media screen and (max-width:321px) {
+    .left {
+        position:relative;
+        top:15px;
+      /*  left: 185px; */
+        left:205px;
+        width:210px;
     }
     .card {
         padding-top:40px !important;
@@ -160,13 +186,6 @@ padding-bottom:50px;
     transform: translateY(-50%); */
     width: 210px; 
 } 
-
-.left {
-left:200px;
-/* -webkit-transform:translateY(-50%);
-transform:translateY(-50%); */
-width:210px;
-}
 
 .left #headshot {
     position: relative;
