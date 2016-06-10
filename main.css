@@ -117,8 +117,8 @@ padding-bottom:50px;
         position:relative;
         top:15px;
       /*  left: 185px; */
-        left:200px;
-        width:210px;
+        left:100%;
+        width:100%;
     }
     .card {
         padding-top:40px !important;
@@ -198,10 +198,10 @@ padding-bottom:50px;
     height: 200px;
 }
 
-.pure-u-md-1-4, .pure-u-md-6-24 {
+/* .pure-u-md-1-4, .pure-u-md-6-24 {
     width: 33.3333%;*
     width: 33.3023%;
-}
+} */
 
 .card {
    /* min-width:720px !important; */
