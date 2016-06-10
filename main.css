@@ -99,11 +99,28 @@ table{
     color: #1e1e1e;
 }
 
- .left {
+ .header {
    /* margin: 80% 2em 0;*/
     text-align: left;
     top: auto;
+    /* position: fixed;
+    top: 45%;
+    left: 200px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 210px; */
 } 
+
+.left #headshot {
+    position: relative;
+    overflow: hidden;
+    height: 200px
+}
+
+.left #headshot img {
+    width: 200px;
+    height: 200px;
+}
 
 .pure-u-md-1-4, .pure-u-md-6-24 {
     width: 33.3333%;*
