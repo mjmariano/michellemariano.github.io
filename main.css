@@ -337,6 +337,139 @@ right:0;
 min-width:600px;
 }
 
+@media screen and (min-width:1024px){
+#home { padding-right:250px;
+    }
+}
+
+#home p {
+margin-bottom:18px;
+text-align:justify;
+}
+
+#home .line {
+margin-top:50px;
+}
+
+#home #news #news-title {
+overflow:hidden;
+margin:40px 0;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+#home #news #news-title h2 {
+float:left;
+font-size:15px;
+margin:0;
+}
+
+#home #news #news-title #news-more {
+font-size:10px;
+float:right;
+line-height:20px;
+}
+
+#home #news ul {
+font-size:9pt;
+color:#646464;
+text-align:justify;
+}
+
+#home #news ul li {
+margin-bottom:15px;
+}
+
+#home #news ul li p {
+display:inline;
+}
+
+#home #news ul li .news-date {
+display:inline-block;
+width:85px;
+letter-spacing:.6px;
+font-weight:500;
+text-transform:uppercase;
+color:#1e1e1e;
+}
+
+#home #news ul li .separator {
+margin-right:10px;
+}
+
+#about,#publications {
+display:none;
+}
+
+@media screen and (min-width:1024px) {
+#about {
+padding-right:250px;
+    }
+}
+
+#about p {
+margin-bottom:22px;
+text-align:justify;
+}
+
+@media screen and (min-width:1024px) {
+#publications {
+padding-right:75pt;
+padding-bottom:50px;
+    }
+}
+
+#publications h2 {
+font-size:14px;
+margin:35px 0;
+font-weight:300;
+}
+
+#publications h2:nth-child(2) {
+margin-top:0;
+}
+
+#publications li { 
+font-size:9pt;
+overflow:hidden;
+margin-bottom:20px;
+}
+
+#publications #disclaimer {
+background-color:hsla(0,0%,100%,.7);
+font-size:10px;
+margin-top:-50px;
+margin-bottom:35px;
+}
+
+#publications #disclaimer span.fa {
+color:#ffc156;
+margin-right:7px;
+}
+
+#publications #p-icon {
+float:left;
+font-size:25px;
+margin-right:40px;
+}
+
+#publications #p-info {
+width:calc(100% - 70px);
+float:left;
+}
+
+#publications #p-info .separator {
+margin:0 6px;
+}
+
+#publications #p-award {
+font-weight:500;
+}
+
+#publications #p-award span.fa {
+color:#fd7024;
+margin-right:7px;
+}
 
 /* tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
