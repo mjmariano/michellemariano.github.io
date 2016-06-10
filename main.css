@@ -107,8 +107,8 @@ table{
     top: 45%;
     left: 200px;
     -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 210px; */
+    transform: translateY(-50%); */
+    width: 210px; 
 } 
 
 .left #headshot {
