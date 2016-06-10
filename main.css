@@ -80,6 +80,7 @@ table{
     width:210px;
 }
 .card {
+    top:80;
     left:500px;
 }
 .left #external-links {
@@ -208,7 +209,6 @@ padding-bottom:50px;
     margin-bottom:80px;
     min-height:100vh;
     position:absolute;
-   /* top:0; */
     right:0;
 /* min-width:600px; */
 }
