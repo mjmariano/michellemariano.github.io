@@ -514,12 +514,3 @@ width: 100%;
 border: 1px solid #e1e1e1;
 background: #a2a2a2;
 }
-
-/* tablets (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-.sample-date {
-    font-size:32px;
-}
-.left {font-size:50px;
-    }
-}
