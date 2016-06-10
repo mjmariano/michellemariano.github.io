@@ -337,11 +337,11 @@ right:0;
 min-width:600px;
 }
 
+
 /* tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 .sample-date {
     font-size:32px;
-    }
 .left {font-size:50px;
 }
-
+}
