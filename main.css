@@ -123,6 +123,12 @@ table{
     left:500px !important;
    /* min-width:720px !important; */
     margin-bottom:80px;
+    min-height:100vh;
+    position:absolute;
+   /* top:0; */
+    left:550px;
+    right:0;
+/* min-width:600px; */
 }
 
 a {
@@ -320,17 +326,10 @@ transition:all .2s;
 color:#fd7024;
 }
 
-.card {
-min-height:100vh;
-position:absolute;
-top:0;
-/* left:550px; */
-right:0;
-/* min-width:600px; */
-}
-
 @media screen and (min-width:1024px){
-#home { width: 520px;
+#home { 
+    width: 520px;
+    top:132px;
     }
 }
 
