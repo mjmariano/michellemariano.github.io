@@ -130,6 +130,10 @@ table{
 /* min-width:600px; */
 }
 
+div#home.card {
+    padding-top:0px;
+}
+
 a {
     color:#0854c7 !important;
 }
