@@ -86,13 +86,13 @@ table{
 
 @media screen and (max-width:1024px) {
 .left {
-position:relative;left:50%;top:30px;
--webkit-transform:translateX(-60%);
-transform:translateX(-60%);
+position:fixed;left:50%;top:30px;
+-webkit-transform:translateX(-70%);
+transform:translateX(-70%);
     }
 .card {
-    left:330px;
-    width:400px;;
+    left:300px;
+    width:290px;;
     }
 /* #publications {
 padding-right:75pt;
