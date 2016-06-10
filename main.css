@@ -82,17 +82,17 @@ table{
 
 .pure-g {
     font-family: Avenir, Open Sans, Helvetica, sans-serif;
-   /* display: -webkit-flex;
+    display: -webkit-flex;
     -webkit-flex-flow: row wrap;
     display: -ms-flexbox;
     -ms-flex-flow: row wrap;
     -ms-align-content: flex-start;
     -webkit-align-content: flex-start;
-    align-content: flex-start; */
+    align-content: flex-start; 
 }
 
 .sidebar {
-    position: fixed;
+   /* position: fixed; */
     top: 0;
     bottom: 0;
     background: #fff;
