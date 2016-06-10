@@ -80,6 +80,9 @@ table{
 .card {
     left:500px;
 }
+.left #external-links {
+    margin-top:40px !important;
+}
 #about {
     padding-right:250px;
     }
@@ -96,6 +99,9 @@ top:80px;
     left:300px;
     width:360px;;
     }
+    .left #external-links {
+    margin-top:40px !important;
+}
 /* #publications {
 padding-right:75pt;
 padding-bottom:50px;
@@ -209,10 +215,6 @@ a.sublink {
     background-color:#BD1550 !important;
     font-size:8px !important;
     font-weight:800 !important;
-}
-
-.left #external-links {
-    margin-top:40px !important;
 }
 
 #home .line {
