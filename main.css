@@ -205,8 +205,10 @@ a.sublink {
     line-height:1.7em;
 }
 
-@media (max-width: 22em) {
-   .sample-date {
+/* tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.sample-date {
     font-size:32px;
     }
 }
+
