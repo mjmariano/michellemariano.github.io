@@ -100,7 +100,7 @@ table{
 }
 
  .left {
-    margin: 80% 2em 0;
+   /* margin: 80% 2em 0;*/
     text-align: left;
     top: auto;
 } 
