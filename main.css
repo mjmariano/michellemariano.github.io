@@ -167,13 +167,13 @@ padding-bottom:50px;
     align-content: flex-start; 
 }
 
-.sidebar {
-   /* position: fixed; */
+/* .sidebar {
+   position: fixed; 
     top: 0;
     bottom: 0;
     background: #fff;
     color: #1e1e1e;
-}
+} */
 
  .header {
    /* margin: 80% 2em 0;*/
@@ -215,6 +215,13 @@ padding-bottom:50px;
 
 div#home.card {
     padding-top:0px;
+}
+
+#home p {
+    margin-bottom:18px;
+    text-align:left;
+    font-size: 13px;
+    line-height:1.7em;
 }
 
 a {
@@ -277,12 +284,6 @@ a.sublink {
     font-size: 15px;
     margin: 0;
     font-weight: 500;
-}
-
-#home p {
-    text-align:left !important;
-    font-size: 12px;
-    line-height:1.7em;
 }
 
 .left #headshot {
@@ -398,11 +399,6 @@ transition:all .2s;
 
 .left .external-link:hover { 
 color:#fd7024;
-}
-
-#home p {
-margin-bottom:18px;
-text-align:justify;
 }
 
 #home .line {
