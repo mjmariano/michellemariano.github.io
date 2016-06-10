@@ -120,13 +120,12 @@ table{
 }
 
 .card {
-    left:500px !important;
+    left:500px;
    /* min-width:720px !important; */
     margin-bottom:80px;
     min-height:100vh;
     position:absolute;
    /* top:0; */
-    left:550px;
     right:0;
 /* min-width:600px; */
 }
@@ -329,7 +328,7 @@ color:#fd7024;
 @media screen and (min-width:1024px){
 #home { 
     width: 520px;
-    top:132px;
+    top:140px;
     }
 }
 
