@@ -70,7 +70,7 @@ table{
 
 @media screen and (min-width:1024px){
 #home { 
-    width: 520px;
+    width: 500px;
 /*    top:80px; */
     }
 .card {
@@ -90,6 +90,10 @@ transform:translateX(-60%);
 .card {
     left:330px;
     width:400px;
+    }
+#publications {
+padding-right:75pt;
+padding-bottom:50px;
     }
 }
 
@@ -407,13 +411,6 @@ display:none;
 #about p {
 margin-bottom:22px;
 text-align:justify;
-}
-
-@media screen and (min-width:1024px) {
-#publications {
-padding-right:75pt;
-padding-bottom:50px;
-    }
 }
 
 #publications h2 {
