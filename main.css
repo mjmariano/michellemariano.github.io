@@ -204,3 +204,9 @@ a.sublink {
     font-size: 12px;
     line-height:1.7em;
 }
+
+@media (max-width: 22em) {
+   .sample-date {
+    font-size:32px;
+    }
+}
