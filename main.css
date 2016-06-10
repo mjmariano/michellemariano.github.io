@@ -75,6 +75,7 @@ table{
     }
 .card {
     left:500px;
+    position:absolute;
 }
 #about {
     padding-right:250px;
@@ -90,6 +91,7 @@ transform:translateX(-60%);
 .card {
     left:330px;
     width:400px;
+    position:absolute;
     }
 /* #publications {
 padding-right:75pt;
@@ -170,7 +172,6 @@ padding-bottom:50px;
    /* min-width:720px !important; */
     margin-bottom:80px;
     min-height:100vh;
-    position:absolute;
    /* top:0; */
     right:0;
 /* min-width:600px; */
