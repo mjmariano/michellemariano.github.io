@@ -102,6 +102,7 @@ table{
 /* .left {
     margin: 80% 2em 0;
     text-align: left;
+    top: auto;
 } */
 
 .pure-u-md-1-4, .pure-u-md-6-24 {
@@ -164,7 +165,6 @@ a.sublink {
     font-size:11px;
     line-height:1.7em;
 }
-    
 
 #portfolio-title {
     overflow: hidden;
