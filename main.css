@@ -167,7 +167,7 @@ a.sublink {
 
 .left h1 {
     font-size:19px;
-    margin-bottom:12px !important;
+    margin-bottom:12px;
     font-family:Josefin Sans;
     margin:35px 0;
     margin-left:-2px;
@@ -236,17 +236,6 @@ background-color:#1e1e1e;
     font-size: 15px;
     margin: 0;
     font-weight: 500;
-}
-
-.left #headshot {
-position:relative;
-overflow:hidden;
-height:200px;
-}
-
-.left #headshot img {
-width:200px;
-height:200px;
 }
 
 .left #headshot:hover #headshot-overlay {
