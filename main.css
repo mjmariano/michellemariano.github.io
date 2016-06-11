@@ -45,6 +45,12 @@ width:210px;
     }
 }
 
+@media screen and (max-width:700px) {
+    .left {
+        position:absolute;
+    }
+}
+
 @media screen and (max-width:480px) {
     .left {
         position:relative;
