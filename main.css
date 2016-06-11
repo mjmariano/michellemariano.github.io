@@ -2,6 +2,12 @@
     RESPONSIVE
 \*------------------------------------*/
 
+@media screen and (min-width:1280px){
+#home { 
+    width: 700px;
+    }
+}
+
 @media screen and (min-width:1024px){
 #home { 
     width: 500px;
