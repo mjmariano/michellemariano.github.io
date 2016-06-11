@@ -1,72 +1,6 @@
 /*------------------------------------*\
-    RESET
+    RESPONSIVE
 \*------------------------------------*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-    v2.0b1 | 201101 
-    NOTE:WORK IN PROGRESS
-    USE WITH CAUTION AND TEST WITH ABANDON */
-
-/* html,body,div,span,applet,object,iframe,
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,
-a,abbr,acronym,address,big,cite,code,
-del,dfn,em,img,ins,kbd,q,s,samp,
-small,strike,strong,sub,sup,tt,var,
-b,u,i,center,
-dl,dt,dd,ol,ul,li,
-fieldset,form,label,legend,
-table,caption,tbody,tfoot,thead,tr,th,td,
-article,aside,canvas,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section,summary,
-time,mark,audio,video{
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-}
-/* HTML5 display-role reset for older browsers */
-/*article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{
-    display:block;
-}
-body{
-    line-height:1;
-}
-ol,ul{
-    list-style:none;
-}
-blockquote,q{
-    quotes:none;
-}
-blockquote:before,blockquote:after,
-q:before,q:after{
-    content:’’;
-    content:none;
-}
-
-ins{
-    text-decoration:none;
-}
-del{
-    text-decoration:line-through;
-}
-
-table{
-    border-collapse:collapse;
-    border-spacing:0;
-}*/
-
-
-/*------------------------------------*\
-    $MAIN
-\*------------------------------------*/
-
-/* body {
-    font-size: 14px;
-    font-weight: 300;
-    color: #1e1e1e;
-}*/
 
 @media screen and (min-width:1024px){
 #home { 
@@ -108,18 +42,13 @@ width:210px;
     }
     .left #external-links {
     margin-top:40px !important;
-}
-/* #publications {
-padding-right:75pt;
-padding-bottom:50px;
-    } */
+    }
 }
 
 @media screen and (max-width:480px) {
     .left {
         position:relative;
         top:15px;
-      /*  left: 185px; */
         left:100%;
         width:100%;
     }
@@ -132,7 +61,6 @@ padding-bottom:50px;
     .left #external-links {
         margin-top:20px !important;
     }
-    
 }
 
 @media screen and (max-width:321px) {
@@ -152,8 +80,11 @@ padding-bottom:50px;
     .left #external-links {
         margin-top:20px !important;
     }
-    
 }
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
 
 #layout {
     padding:0;
@@ -181,18 +112,11 @@ padding-bottom:50px;
     height: 200px;
 }
 
-/* .pure-u-md-1-4, .pure-u-md-6-24 {
-    width: 33.3333%;*
-    width: 33.3023%;
-} */
-
 .card {
-   /* min-width:720px !important; */
     margin-bottom:80px;
     min-height:100vh;
     position:absolute;
     right:0;
-/* min-width:600px; */
 }
 
 div#home.card {
