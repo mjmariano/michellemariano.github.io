@@ -221,6 +221,9 @@ a {
     color:#0854c7;
     text-decoration:none;
     -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    -ms-transition:all .2s;
+    -o-transition:all .2s;
     transition:all .2s;
     cursor:pointer;
 }
