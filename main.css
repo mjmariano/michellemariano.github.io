@@ -69,8 +69,7 @@ width:210px;
 }
 
 @media screen and (min-width:481px) and (max-width:780px) {
-    .left {
-        position:absolute;
+#home {
         top:80px;
     }
 .left {
