@@ -89,7 +89,10 @@ width:210px;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (min-width:321px) and (max-width:700px) {
+    #home {
+        top:15px;
+    }
     .left {
         position:relative;
         top:15px;
