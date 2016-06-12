@@ -390,12 +390,6 @@ text-transform:uppercase;
 letter-spacing:1px;
 }
 
-#home #news #news-title h2 {
-float:left;
-font-size:15px;
-margin:0;
-}
-
 #home #news #news-title #news-more {
 font-size:10px;
 float:right;
