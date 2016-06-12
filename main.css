@@ -68,9 +68,25 @@ width:210px;
     }
 }
 
-@media screen and (min-width:481px) {
+@media screen and (min-width:481px) and (max-width:780px) {
     .left {
         position:absolute;
+        top:80px;
+    }
+.left {
+position:fixed;left:50%;top:30px;
+-webkit-transform:translateX(-70%);
+transform:translateX(-70%);
+top:80px;
+left:200px;
+width:210px;
+    }
+.card {
+    left:330px;
+    width:360px;;
+    } 
+.left #external-links {
+    margin-top:40px;
     }
 }
 
