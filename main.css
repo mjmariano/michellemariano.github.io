@@ -46,8 +46,9 @@
     }
 }
 
-@media screen and (min-width:781px) {
+@media screen and (min-width:781px) and (max-width:1024px) {
 #home { 
+    width:500px;
     top:80px;
     }
 .left {
@@ -67,7 +68,7 @@ width:210px;
     }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (min-width:481px) {
     .left {
         position:absolute;
     }
