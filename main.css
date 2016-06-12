@@ -54,6 +54,7 @@
 .left {
 position:fixed;left:50%;top:30px;
 -webkit-transform:translateX(-70%);
+-ms-transform:translateX(-70%);
 transform:translateX(-70%);
 top:80px;
 left:200px;
@@ -75,6 +76,7 @@ width:210px;
 .left {
 position:absolute;left:50%;top:30px;
 -webkit-transform:translateX(-70%);
+-ms-transform:translateX(-70%);
 transform:translateX(-70%);
 top:80px;
 left:200px;
@@ -96,6 +98,7 @@ width:210px;
     .left {
         position:relative;left:50%;top:30px;
         -webkit-transform:translateX(-80%);
+        -ms-transform:translateX(-80%);
         transform:translateX(-80%);
         top:15px;
         left:100%;
@@ -122,6 +125,7 @@ width:210px;
     .left {
         position:relative;left:50%;top:30px;
         -webkit-transform:translateX(-70%);
+        -ms-transform:translateX(-70%);
         transform:translateX(-70%);
         top:15px;
         left:100%;
@@ -142,6 +146,7 @@ width:210px;
     .left {
         position:relative;left:50%;top:30px;
         -webkit-transform:translateX(-70%);
+        -ms-transform:translateX(-70%);
         transform:translateX(-70%);
         top:15px;
         left:205px;
