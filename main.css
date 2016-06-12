@@ -295,8 +295,8 @@ background-color:#1e1e1e;
 #portfolio-title {
     overflow: hidden;
     margin: 40px 0;
-    margin-top: 30px !important;
-    margin-bottom: 20px !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
