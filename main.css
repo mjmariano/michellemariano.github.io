@@ -217,6 +217,12 @@ width:210px;
     line-height:1.7em;
 }
 
+.linky {
+    text-align:left;
+    font-size:13px;
+    line-height:1.7em;
+}
+
 a {
     color:#0854c7;
     text-decoration:none;
